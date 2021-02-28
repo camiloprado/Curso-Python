@@ -1,0 +1,7 @@
+nome = input('Digite seu nome:')
+print('É um prazer te conhecer {}!'.format(nome))
+idade = input('Digite sua idade:')
+cidade = input('Digite sua cidade:')
+print('Suas informações são:\n{}'.format(nome))
+print(idade)
+print(cidade)

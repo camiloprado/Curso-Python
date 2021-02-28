@@ -1,0 +1,5 @@
+p = float(input('Digite valor do produtor: R$'))
+d = float(input('Digite o desconto (%):'))
+vd = p*(d/100)
+print('O desconto de {:.0f}% sobre o valor de R${:.2f} foi de R${:.2f}'.format(d, p, (vd)))
+print('Logo o valor pago é: R${:.2f}'.format(p-vd))
